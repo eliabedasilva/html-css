@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--Cream);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+main div{
+    width:300px;
+    height: 450px;
+}
+
+#image img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#content {
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#content *{
+    margin-left: 30px;
+}
+#content h1{
+    margin-top: 30px;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.7em;
+    font-weight: normal;
+    color: var(--Darkgrayishblue);
+    letter-spacing: 10px;
+}
+#content h2{
+    margin-top: 30px;
+    width: 200px;
+    font-family: Fraunces, sans-serif;
+    font-size: 2em;
+}
+#content > p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 23px;
+    color: var(--Darkgrayishblue);
+
+    
+}
+span{
+    display: inline-block;
+}
+#old-price{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Darkgrayishblue);
+    text-decoration: line-through;
+}
+#final-price{
+    font-family: Fraunces, sans-serif;;
+    margin-top: 10px;
+    color: var(--Darkcyan);
+    font-size: 2em;
+}
+#button img{
+    width: 10px;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+button{
+    text-align: center;
+    display: block;
+    margin:  auto;
+    margin-top: 20px;
+    border: none;
+    background-color: var(--Darkcyan);
+    padding: 12px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: hsl(158, 31%, 26%);
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #image{
+        height: 209.91px;
+    }
+    #content{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    #image img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+}

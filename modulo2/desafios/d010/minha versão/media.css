@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px){
+    header{
+        height: 222px;
+
+    }
+    img#irina{
+        display: none;
+    }
+    img#android-1{
+        display: none;
+    }
+    img#irina-mobile{
+        display: block;
+    }
+    img#android-1-mobile{
+        display: block;
+    }
+}
+@media only screen and (max-width: 400px){
+    header{
+        height: 322px;
+    }
+}

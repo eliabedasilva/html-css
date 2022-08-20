@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Teste esse site em tamanhos de tela diferente.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    <br>
+    <br>
+
+    <h1>Reproduzindo Áudios</h1>
+
+    <h2>Maneira mais simples</h2>
+    <audio autoplay controls src="media/Beethovens_Silence_Concerto[youtubetomp3app.com].mp3"></audio>
+    <!--MP3 WAV OGG -->    
+
+    <h2>Maneira mais eficiente</h2>
+    <audio preload="metadata" autoplay controls>
+        <source src="media/Beethovens_Silence_Concerto[youtubetomp3app.com].mp3" type="audio/ogg">
+        <p>Infelismente seu navegador não consegue Reproduzir o áudio. <a href="media/Beethovens_Silence_Concerto[youtubetomp3app.com].mp3">click aqui</a> para o download</p>
+    </audio>
+    <br>
+    <br>
+
+
+</body>
+</html>

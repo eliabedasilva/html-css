@@ -1,0 +1,27 @@
+@media only screen and (max-width: 950px){
+    .formulario {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+    }
+    .image-titulo{
+        width: 100%;
+        height: auto;
+    }
+    .image-titulo h1{
+        display: none;
+    }
+    .image-titulo img{
+        width: 50vw;
+    }
+    .formulario{
+        width: 100%;
+        height: auto;
+    }
+    .formulario form{
+        width: 85%;
+    }
+}

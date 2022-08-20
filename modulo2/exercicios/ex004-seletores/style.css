@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*
+id = #
+class = .
+*/
+
+body{
+    background-image: linear-gradient(45deg, rgb(52, 183, 52), lightgreen);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 65vw;
+    background-color: white;
+    padding: 1em 4em;
+    border-radius: 0.2em;
+}
+
+h1{
+    color: green;
+}
+h2{
+    color: rgba(0, 128, 0, 0.726);
+}
+h1#título-principal{
+    color: rgb(0, 80, 0);
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 0.2em;
+}
+.basico{
+    color: brown;
+}
+.intermediario{
+    color: darkorchid;
+}
+.avancado{
+    color: lightsteelblue;
+}
+.negrito{
+    font-weight: bold;
+    background-color: lightgreen;
+}
+@media only screen and (max-width: 950px){
+    main{
+        width: 72vw;
+    }
+}
+@media only screen and (max-width: 500px){
+    main{
+        padding: 0.5em;
+        width: 78vw;
+    }
+}

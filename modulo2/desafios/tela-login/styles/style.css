@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #160D23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-titulo{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.image-titulo h1{
+    color: #05F2C7;
+    font-size: 3vw;
+}
+.image-titulo img{
+    width: 35vw;
+}
+.formulario{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario form{
+    background-color: #2F1E42;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000089;
+}
+h2{
+    color:#05F26C;
+    font-weight: 800;
+    margin: 0;
+}
+.label-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+.label-input input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #5C4C73;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000089;
+    outline: none;
+    box-sizing: border-box;
+    margin: 20px 0px;
+}
+.label-input p {
+    color: white;
+    margin-bottom: 0px;
+
+}
+form [type="submit"]{
+    background-color: #00F272;
+    border: none;
+    outline: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
