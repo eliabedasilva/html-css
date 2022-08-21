@@ -47,4 +47,4 @@ Users should be able to:
 ## Author
 
 - Website - [Add your name here](https://github.com/eliabedasilva)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/eliabedasilva)
