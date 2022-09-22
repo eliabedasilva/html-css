@@ -51,16 +51,23 @@ img{
     width: 100%;
  
 }
+#conteinerButton{
+    position: relative;
+}
 #button{
-    background-color: var(--neonGreen);
-    width: 70px;
-    height: 70px;
+    position: absolute;
+    left: 0;
+    right: 0;
     margin: auto;
+    background-color: var(--neonGreen);
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 
 footer{
     text-align: center;
@@ -70,7 +77,7 @@ footer{
 
 @media screen and (max-width: 500px){
     section{
-        width: 200px;
+        width: 250px;
     }
     #button{
         width: 45px;
