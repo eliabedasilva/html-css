@@ -8,86 +8,112 @@
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
     <header>
       <div id="menu">
         <div id="logo">
-          <h1>sunnyside</h1>
+          <img src="images/logo.svg" alt="logo">
         </div>
         <nav>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#" class="button-selected">Contact</a></li>
+          </ul>
         </nav>
       </div>
       <div id="title">
         <h1>We are creatives</h1>
       </div>
+      <div id="arrow">
+        <img src="images/icon-arrow-down.svg" alt="arrow">
+      </div>
     </header>
     <main></main>
     <article id="content">
-      <div>
-        <h2 class="titleType1">Transform your brand</h2>
-        <p>
-          We are a full-service creative agency specializing in helping brands grow fast.
-          Engage your clients through compelling visuals that do most of the marketing for you.
-        </p>
-        <span>Learn more</span>
+      <div >
+        <div class="block-text">
+          <h2 >Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands grow fast.
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
       </div>
       <div id="egg"></div>
       <div id="cup"></div>
-      <div>
-        <h2 class="titleType1">Stand out to the right audience</h2>
-        <p>
-          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
-        </p>
-        <span>Learn more</span>
+      <div class="block-text">
+        <div class="block-text">
+          <h2 >Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
         
       </div>
-      <div>
-        <h2 class="titleType2">Graphic design</h2>
+      <div id="graphic-design">
+        <h2>Graphic design</h2>
         <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
       </div>
-      <div>
-        <h2 class="titleType2">Photography</h2>
-        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      <div id="photography">
+        <h2>Photography</h2>
+        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
       </div>
     </article>
     <article id="clientTestimonials">
-      <h1>Client testimonials</h1>
+      <h1 id="title_client_testimonials ">Client testimonials</h1>
       <div>
-        <p class="description">>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <div class="imgDiv"><img src="images/image-emily.jpg" alt="image-emily"></div>
+        <p class="description">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
         <p class="name">Emily R.</p>
         <p class="office">Marketing Director</p>
       </div>
       <div>
+        <div class="imgDiv"><img src="images/image-thomas.jpg" alt="image-thomas"></div>
         <p class="description">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
         <p class="name">Thomas S.</p>
         <p class="office">Chief Operating Officer</p>
       </div>
       <div>
+        <div class="imgDiv"><img src="images/image-jennie.jpg" alt="image-jennie"></div>
         <p class="description">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
         <p class="name">Jennie F.</p>
         <p class="office">Business Owner</p>
       </div>
     </article>
+    <article id="Images">
+      <div class="bottles"></div>
+      <div class="orange"></div>
+      <div class="cone"></div>
+      <div class="sugar"></div>
+    </article>
   </main>
 
   <footer>
-    About
-    Services
-    Projects
-    Contact
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+    <div id="footer">
+      <h1>Sunnyside</h1>
+      <div id="menu-footer">
+        <span>About</span>
+        <span>Services</span>
+        <span>Projects</span>
+        <span>Contact</span>
+      </div>
+      <div id="social-medias">
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <img src="images/icon-instagram.svg" alt="instagram">
+        <img src="images/icon-twitter.svg" alt="twitter">
+        <img src="images/icon-pinterest.svg" alt="pinterest">
+      </div>
+    </div>
+    <div id="attribution">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/eliabedasilva" target="_blank">Eliabe Santos da Silva</a>.
+      </p>
     </div>
   </footer>
 </body>
