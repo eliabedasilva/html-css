@@ -39,9 +39,30 @@ button.button-hamburger{
     background-color: transparent;
     cursor: pointer;
 }
+.hamburger{
+    width:30px;
+    height: 4px;
+    background-color: white;
+    margin-top: 4px;
+    transition: 0.2s;
+}
+.activated > #line1{
+    display: none;
+}
+.activated > .hamburger{
+    margin-top: 0;
+}
+.activated > #line2{
+    rotate: 135deg;
+}
+.activated > #line3{
+    rotate: -135deg;
+    margin-top: -4px;
+}
+
 ul.mobile{
     right: 100vw;
-    top: 92px;
+    top: 77px;
     position: absolute;
     list-style: none;
     background-color: rgb(153, 153, 153);
